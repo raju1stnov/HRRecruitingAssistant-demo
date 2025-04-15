@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  hr_recruiting_assistant:
+    build: .
+    container_name: hr_recruiting_assistant
+    ports:
+      - "8005:8005"
+    networks:
+      - agents_net
+
+networks:
+  agents_net:
+    external: true
