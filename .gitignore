@@ -1,0 +1,30 @@
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and backup files
+*.tmp
+*.bkp
+*.bk
+
+# Architecture folder backups
+architecture/*.drawio.bk
+architecture/*.bkp
+architecture/*.tmp
+
+# Ignore all .dtmp files
+*.dtmp
+
+# Ignore any other temp folders
+tmp/
+temp/
+
+# Ignore IDE-specific files
+.idea/
+*.swp
+*.swo
